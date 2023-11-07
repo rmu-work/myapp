@@ -1,36 +1,48 @@
 {
-  "name": "myapp",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^3.8.3",
-    "vue": "^2.6.14",
-    "vue-router": "^3.5.1",
-    "vuex": "^3.6.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.12.16",
-    "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-plugin-router": "~5.0.0",
-    "@vue/cli-plugin-unit-jest": "~5.0.0",
-    "@vue/cli-plugin-vuex": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "@vue/test-utils": "^1.1.3",
-    "@vue/vue2-jest": "^27.0.0-alpha.2",
-    "babel-jest": "^27.0.6",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "jest": "^27.0.5",
-    "sass": "^1.32.7",
-    "sass-loader": "^12.0.0",
-    "vue-template-compiler": "^2.6.14"
-  }
+    "name": "myapp",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "test:unit": "vue-cli-service test:unit",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@mdi/js": "^5.9.55",
+        "@vue/composition-api": "^1.3.3",
+        "@vuetify/cli-plugin-utils": "^0.0.9",
+        "axios": "^1.5.0",
+        "core-js": "^3.8.3",
+        "tiptap-vuetify": "^2.24.0",
+        "vue": "^2.6.14",
+        "vue-cli-plugin-vuetify": "~2.3.1",
+        "vue-debounce": "^2.6.0",
+        "vue-router": "^3.5.1",
+        "vuedraggable": "^2.24.3",
+        "vuetify": "^2.5.5",
+        "vuetify-loader": "^1.7.0",
+        "vuex": "^3.6.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.16",
+        "@babel/eslint-parser": "^7.12.16",
+        "@mdi/font": "^7.2.96",
+        "@vue/cli-plugin-babel": "~5.0.0",
+        "@vue/cli-plugin-eslint": "~5.0.0",
+        "@vue/cli-plugin-router": "~5.0.0",
+        "@vue/cli-plugin-unit-jest": "~5.0.0",
+        "@vue/cli-plugin-vuex": "~5.0.0",
+        "@vue/cli-service": "~5.0.0",
+        "@vue/test-utils": "^1.1.3",
+        "@vue/vue2-jest": "^27.0.0-alpha.2",
+        "babel-jest": "^27.0.6",
+        "deepmerge": "^4.3.1",
+        "eslint": "^7.32.0",
+        "eslint-plugin-vue": "^8.0.3",
+        "jest": "^27.0.5",
+        "sass": "~1.32",
+        "sass-loader": "^10.0.0",
+        "vue-template-compiler": "^2.6.14"
+    }
 }
